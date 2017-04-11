@@ -8,6 +8,8 @@
 
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page session="false" %>
+
+<c:set var="contentPath" value="${pageContext.request.contextPath}"/>
 <html>
 <head>
     <title>Home</title>
@@ -18,5 +20,7 @@
 </h1>
 
 <P>  The time on the server is ${serverTime}. </P>
+<a href="${contentPath}/blog">blog</a>
+<a href="${contentPath}/user">user</a>
 </body>
 </html>
