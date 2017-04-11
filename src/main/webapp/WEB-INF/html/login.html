@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/login.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<div id="mainbody" class="wrapper wrapper-full-page">
+    <div class="full-page login-page" filter-color="black" data-image="../assets/img/login.jpeg">
+        <!--   you can change the color of the filter page using: data-color="blue | purple | green | orange | red | rose " -->
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 col-md-offset-4 col-sm-offset-3">
+                        <form method="#" action="#" class="form-signin">
+                            <div class="card card-login">
+                                <div class="form-signin-heading text-center">
+                                    <h2>请登录</h2>
+                                </div>
+                                <!--  表单输入组 以及白色卡片，
+                                      文本自动居中   text-center
+                                      宽度 百分比布局  width:30%  witdh:70%
+                                      f12  复制节点html内容,主要是 分层思想 那三个板块
+                                      复制 计算后 css样式 ，放到相应类中 .input-group
+                                      -->
+                                <div class="card-content">
+                                    <div class="input-group">
+                                            <span class="input-group-addon">
+                                                <i class="material-icons">名字：</i>
+                                            </span>
+                                        <div class="form-group label-floating is-empty">
+                                            <label class="control-label"></label>
+                                            <input class="form-control" type="text">
+                                            <span class="material-input"></span></div>
+                                    </div>
+                                    <div class="input-group">
+                                            <span class="input-group-addon">
+                                                <i class="material-icons">邮箱：</i>
+                                            </span>
+                                        <div class="form-group label-floating is-empty">
+                                            <label class="control-label"></label>
+                                            <input class="form-control" type="email">
+                                            <span class="material-input"></span></div>
+                                    </div>
+                                    <div class="input-group">
+                                            <span class="input-group-addon">
+                                                <i class="material-icons">密码：</i>
+                                            </span>
+                                        <div class="form-group label-floating is-empty">
+                                            <label class="control-label"></label>
+                                            <input class="form-control" type="password">
+                                            <span class="material-input"></span></div>
+                                    </div>
+                                </div>
+
+                                <div class="footer text-center">
+                                    <button type="submit" class="btn btn-rose btn-simple btn-wd btn-lg">Let's go</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="full-page-background" style="background-image: url(../assets/img/login.jpeg) "></div></div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../assets/js/bootstrap.min.js"></script>
+</body>
+</html>
